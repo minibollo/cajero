@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="html" href="cajero.html">
+</head>
+<body> 
+    <div >
+        <center>
+        <h1>MINIBANCO</h1>    
+        <div ><label for="username"> usuario:</label><input id="input1" type="text"></div>
+        <div> <label for="pass"> password:</label><input id="input2" class="password" type="password" minlength="3 required"></div>
+        <button  onclick="login()">login</button> 
+        </center>
+    </div>
+        
+ </body>
+</html>
+
+<script>
+    var user="minibollo"
+    var password="olami"
+    var user2="yair"
+    var password2="1234"
+   
+   function login(){
+    var user1 = document.getElementById('input1').value;
+    var password1 = document.getElementById('input2').value;
+    console.log(user1)
+    if( user1 == user && password1 == password){
+        location.href='cajero.html'}
+   else if(user1 == user2 && password1 == password2){
+    location.href='cajero.html'}
+    else {
+        alert("usuario o contraseña incorrecto")
+    }
+   }
+</script>
+<body>
+   
+</body>

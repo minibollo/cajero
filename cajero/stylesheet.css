@@ -1,0 +1,25 @@
+.botones{
+border-radius: 50px;
+
+
+}
+.fondo{
+  background-image: url("download.jpg");
+  background-size: cover;
+  
+}
+label{
+    display: block;
+    font: 0.9rem "fira sans", sans-serif;
+}
+.input[type="submit"],
+label{margin-top: 1rem;}
+
+.fondo2{
+    background: linear-gradient(45deg, red,blue);
+}
+.resultado{
+color: white;
+}
+
+
